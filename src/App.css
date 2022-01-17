@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.links {
+  flex-direction: row;
+  display: flex;
+}
+
+.links a {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  cursor: pointer !important;
+}
+
+.links span {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-weight: 600;
+  text-transform: uppercase !important;
+  color: #0d6efd !important;
+}
+
+.links img {
+  width: 12px !important;
+  margin-left: 8px;
+}
+
+.card h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000 !important;
+}
+.cars span {
+  font-size: 15px;
+  color: gray;
+}
+
+.dotsWrapper {
+  flex-direction: row;
+  display: flex !important;
+  flex: 1;
+  justify-content: center;
+  margin: 18px 0;
+}
+
+@media screen and (min-width: 600px) {
+  .dotsWrapper {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .dnoXQg {
+    padding: 0 10px !important;
+  }
+
+  .button-wrapper {
+    top: 10px !important;
+  }
+}
